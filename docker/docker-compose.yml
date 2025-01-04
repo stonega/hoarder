@@ -33,7 +33,3 @@ services:
       MEILI_NO_ANALYTICS: "true"
     volumes:
       - "../files/meilisearch:/meili_data"
-
-volumes:
-  meilisearch:
-  data:
