@@ -4,7 +4,7 @@ services:
     image: ghcr.io/hoarder-app/hoarder:${HOARDER_VERSION:-release}
     restart: unless-stopped
     volumes:
-      - "../files/hoarder-data:/data"
+      - "../files/data:/data"
     ports:
       - 3000
     env_file:
