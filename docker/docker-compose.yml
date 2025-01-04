@@ -35,5 +35,5 @@ services:
       - meilisearch:/meili_data
 
 volumes:
-  meilisearch:
-  data:
+  meilisearch: "../files/meiliseaarch"
+  data: "../files/hoarder-data"
